@@ -1,1 +1,47 @@
-{"Outlook": {"Sunny": {"Humidity": {"High": "No", "Normal": "Yes"}}, "Overcast": "Yes", "Rain": {"Wind": {"Weak": "Yes", "Strong": "No"}}}}
+{
+    "Previous Course Difficulty": {
+        "Difficult": {
+            "Previous Course Grade": {
+                "C": "No",
+                "A": "Yes",
+                "E": "No"
+            }
+        },
+        "Very Easy": {
+            "Previous Course Grade": {
+                "B": "Yes",
+                "F": "Yes",
+                "A": "Yes",
+                "E": "No",
+                "D": "Yes",
+                "G": "No"
+            }
+        },
+        "Easy": {
+            "Previous Course Grade": {
+                "D": "No",
+                "A": {
+                    "Learning Style": {
+                        "Read/Write": "No",
+                        "Kinesthetic": "Yes"
+                    }
+                },
+                "C": "No",
+                "G": "Yes",
+                "B": "No",
+                "F": "Yes"
+            }
+        },
+        "Moderate": {
+            "Previous Course Grade": {
+                "C": "Yes",
+                "B": "Yes",
+                "A": "No",
+                "F": "No",
+                "E": "Yes",
+                "G": "No"
+            }
+        },
+        "Very Difficult": "No"
+    }
+}
